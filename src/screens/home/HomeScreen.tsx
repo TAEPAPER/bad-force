@@ -17,7 +17,7 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
   };
 
   const handleViewPreviousAnalysis = () => {
-    navigation.navigate('Analysis');
+    navigation.navigate('Analysis', {});
   };
 
   const handleSettings = () => {

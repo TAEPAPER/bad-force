@@ -7,6 +7,8 @@ import { StatusBar, useColorScheme } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import AppNavigator from './src/navigation/AppNavigator';
 
+// MediaPipe 웹 기반 포즈 인식 사용
+
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
